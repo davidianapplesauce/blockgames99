@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.root {
+  background-color: #222;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  text-align: center;
+}
+.svgs {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 220px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+nav {
+  background-color: #222;
+}
+footer.page-footer {
+  background-color: #222;
+  display: flex;
+}
+.intro {
+  background-color: #222;
+  height: 170px;
+}
+.slider {
+  background-color: #222;
+}
+#form-header {
+  color: white;
+}
+.card-stacked {
+  background-color: #222;
+  color: white;
+}
+.parent {
+  background-color: #222;
+}
+.cardParent img {
+  background: #222;
+  height: 500;
+  max-width: 450px;
+}
+.jumbo {
+  text-align: center;
+  color: aliceblue;
+}
+.btc {
+  text-align: center;
+}
+.USD {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+div#crypto-container {
+  background:white;
+  width: 70%;
+  margin: 0 auto 4px auto;
+  padding: 1em;
+  box-shadow: 1px 1px 0 lightgrey;
+}
+
+span.left {
+  font-weight: bold;
+}
+
+span.right {
+  float:right;
+}
+.cryptotracker{
+  padding:20px;
+}
+#jumbo-text{
+  color:white;
+}
+.crypto-ui {
+  text-align: center;
+  color: white;
+  
+}
+.youtube {
+  text-align: center;
+}
+.continue {
+  background-color: #222;
+  
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
